@@ -25,7 +25,7 @@ public class CourseController {
 
         Map<String, String> response = new HashMap<>();
         response.put("course", courseName);
-        response.put("status", "success");
+        response.put("status", "successs");
 
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
